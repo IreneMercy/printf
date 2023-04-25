@@ -1,3 +1,8 @@
+#include <stdarg.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include "main.h"
+
 /**
  * print_binary - print unsigned integer to binary
  * @arg: unsigned integer to print
