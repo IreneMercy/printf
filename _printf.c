@@ -33,6 +33,9 @@ int _printf(const char *format, ...)
 				case 'i':
 					len += print_integer(arg);
 					break;
+				case 'b':
+					len += print_binary(arg);
+					break;
 				case '%':
 					len += print_percent(arg);
 					break;
