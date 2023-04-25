@@ -99,7 +99,7 @@ int print_binary(va_list arg)
 
 	while (i > 0)
 	{
-		bin_array[len] = i % 2;
+		bin_arr[len] = i % 2;
 		i /= 2;
 		len++;
 	}
