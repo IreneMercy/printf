@@ -1,5 +1,6 @@
 #ifndef HEADER_FILE
 #define HEADER_FILE
+#include <stdarg.h>
 
 int _printf(const char *format, ...);
 int print_char(va_list arg);
